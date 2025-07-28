@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Netflix - Contact Us</title>
+</head>
+<body class="contact-body">
+    <header class="contact-header">
+        <nav class="contact-nav">
+            <a href="index.html">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo.png" alt="Netflix Logo" class="contact-logo">
+            </a>
+            <a href="login.html" class="btn btn-rounded">Sign In</a>
+        </nav>
+    </header>
+    
+    <div class="contact-container">
+        <div class="contact-hero">
+            <h1>Contact Netflix</h1>
+            <p>We're here to help with any questions or concerns</p>
+        </div>
+        
+        <div class="contact-content">
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone Support</h3>
+                    <p>000-800-040-1843</p>
+                    <span>Available 24/7</span>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-comments"></i>
+                    <h3>Live Chat</h3>
+                    <p>Chat with our support team</p>
+                    <a href="#" class="btn">Start Chat</a>
+                </div>
+                <div class="contact-method">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Support</h3>
+                    <p>Get help via email</p>
+                    <span>Response within 24 hours</span>
+                </div>
+            </div>
+            
+            <div class="contact-form-section">
+                <h2>Send us a message</h2>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <input type="text" id="first-name" required>
+                            <label for="first-name">First Name</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="last-name" required>
+                            <label for="last-name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="contact-email" required>
+                        <label for="contact-email">Email Address</label>
+                    </div>
+                    <div class="input-group">
+                        <select id="subject" required>
+                            <option value="">Select a topic</option>
+                            <option value="billing">Billing Question</option>
+                            <option value="technical">Technical Issue</option>
+                            <option value="content">Content Question</option>
+                            <option value="account">Account Issue</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="contact-submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Media Centre</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <h3>All Rights Reserved &copy; DesignedbyAA</h3>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

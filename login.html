@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Netflix - Sign In</title>
+</head>
+<body class="login-body">
+    <div class="login-wrapper">
+        <header class="login-header">
+            <a href="index.html">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo.png" alt="Netflix Logo" class="login-logo">
+            </a>
+        </header>
+        
+        <div class="login-form-container">
+            <form class="login-form">
+                <h1>Sign In</h1>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email or phone number</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                    <i class="fas fa-eye password-toggle" onclick="togglePassword()"></i>
+                </div>
+                <button type="submit" class="login-btn">Sign In</button>
+                <div class="login-help">
+                    <label class="remember-me">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        Remember me
+                    </label>
+                    <a href="#">Need help?</a>
+                </div>
+                <div class="login-signup">
+                    <p>New to Netflix? <a href="signup.html">Sign up now</a></p>
+                </div>
+                <div class="recaptcha-text">
+                    <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+                </div>
+            </form>
+        </div>
+        
+        <footer class="login-footer">
+            <p>Questions? Call 000-800-040-1843</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Corporate Information</a>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Bhai">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Netflix - Sign Up</title>
+</head>
+<body class="signup-body">
+    <header class="signup-header">
+        <a href="index.html">
+            <img src="https://logos-world.net/wp-content/uploads/2020/04/Netflix-Logo.png" alt="Netflix Logo" class="signup-logo">
+        </a>
+        <a href="login.html" class="signin-link">Sign In</a>
+    </header>
+    
+    <div class="signup-container">
+        <div class="signup-content">
+            <div class="step-indicator">
+                <span class="step active">1</span>
+                <span class="step">2</span>
+                <span class="step">3</span>
+            </div>
+            
+            <div class="signup-form-container">
+                <h1>Create a password to start your membership</h1>
+                <p>Just a few more steps and you're done! We hate paperwork, too.</p>
+                
+                <form class="signup-form">
+                    <div class="input-group">
+                        <input type="email" id="signup-email" required>
+                        <label for="signup-email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="signup-password" required>
+                        <label for="signup-password">Add a password</label>
+                        <i class="fas fa-eye password-toggle" onclick="toggleSignupPassword()"></i>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="confirm-password" required>
+                        <label for="confirm-password">Confirm password</label>
+                    </div>
+                    
+                    <div class="checkbox-group">
+                        <label class="custom-checkbox">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                            Please do not email me Netflix special offers.
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="signup-btn">Continue</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
