@@ -3,6 +3,7 @@
 <p align="center">
   <img src="images/s12.PNG" alt="Description" width="700" height="300"/>
 </p>
+
 ---
 
 [🔗 Live Demo](https://neerajkumar151.github.io/Netflic-clone-frontend/)
