@@ -1,16 +1,14 @@
 # 🎬 Netflix Clone Frontend (HTML + CSS Only)
 
+<p align="center">
+  <img src="images/artwork.png" alt="Description" width="700" height="300"/>
+</p>
+---
+
 [🔗 Live Demo](https://neerajkumar151.github.io/Netflic-clone-frontend/)
 
 A simple and elegant **Netflix landing page clone** created using pure **HTML and CSS**. This project focuses on recreating the clean design and layout of the Netflix homepage, ensuring responsiveness across devices.
 
----
-
-## 📸 Preview
-
-> *(Add a screenshot of your project here)*  
-> Example:  
-> ![Netflix Clone Preview](assets/preview.png)
 
 ---
 
